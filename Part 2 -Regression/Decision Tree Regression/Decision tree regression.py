@@ -22,7 +22,7 @@ regressor.fit(X, y)
 
 
 #prediction of new value
-y_pred = regressor.predict(6.5)
+y_pred = regressor.predict([[6.5]])
 
 
 #visualisiong the Decision tree Regression results
